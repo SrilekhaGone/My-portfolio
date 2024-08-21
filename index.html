@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      .image{
+        background-size: cover;
+        min-height: 90vh;
+        position: relative;
+        
+      }
+      
+      .passport
+      {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+      }
+      .banner-text {
+        position: absolute;
+        top: 25%;
+        color: black;
+        padding: 20px;
+        font-size: 100px;
+        text-transform: uppercase;
+        font-weight: bold;
+        }
+        .gradient-background{
+          background: linear-gradient(300deg, #00bfff, #fff);
+          background-size: 180% 180%;
+          animation: gradient-animation 18s ease infinite;
+        }
+        .image-resizer{
+          height: 280px;
+        }
+      
+    </style>
+    
+</head>
+<body>
+  <section>
+  <div class="image" style="background-image: url('./assests/Background.avif');">
+  <div class="banner-text">
+  <h2>I'm Srilekha</h2>
+  <p>Web Developer</p>
+  </div>
+  </div>
+  </section>
+<section>
+    <div class="my-5">
+      <div class="p-5 text-center bg-body-tertiary">
+        <div class="container py-5">
+          <img  class="passport" src="./assests/Srilekha.jpg">
+          <h1 class="text-body-emphasis">Hello</h1>
+          <p class="col-lg-8 mx-auto lead">
+           I am a recent graduate with a degree in CSE from Jyothishmathi Institite of Technological Sciences. I developed a strong passion for Frontend Developer , Which has driven me to continuously enhance my skills  and knowledge.
+          </p>
+        </div>
+      </div>
+    </div>
+</section>
+<section class="gradient-background">
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="text-center mt-3">My Skills</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <h3 class="fs-2 text-body-emphasis">SQL</h3>
+        <p>I successfully completed the SQL Certification from Great Learning, where I gained in-depth in-depth knowledge and practical experience in SQL. This course provided me with a strong foundation in database managemenet, enabling me to proficiently query, manipulate and manage relational database.</p>
+        <a href="https://drive.google.com/file/d/1ZJYIIqypnESplzp6PrTkALye0eFTY5p6/view?usp=drive_link" class="icon-link">
+          link
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <h3 class="fs-2 text-body-emphasis">Python</h3>
+        <p>I learned the Python Programming Certification from CodeTantra, where I developed a comprehensive understanding of Python, one of the most versatile and widely-used programming languages today. This certification has equipped me with the skills necessary to build efficient and scalable applications..</p>
+        <a href="https://drive.google.com/file/d/1k_UHSdx5aWv9DqNjzD4aA-WoomUqv7-i/view?usp=drive_link" class="icon-link">
+          link
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <h3 class="fs-2 text-body-emphasis">Web Development</h3>
+        <p>I completed the Web Development Certification from Internshala, where I acquired comprehensive skills in designing and building dynamic websites. This course provided a solid foundation in both front-end and back-end web development, allowing me to create responsive, user-friendly, and functional web applications.</p>
+        <a href="https://drive.google.com/file/d/1P9Vs8HIfTWW6WseIFaXJfhVkOIvWCqDH/view?usp=drive_link" class="icon-link">
+          link
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="projects" class="py-5">
+  <div class="container">
+      <h2 class="text-center my-5">My Projects</h2>
+      <div class="row">
+          <!-- Project 1 -->
+          <div class="col-md-6">
+              <div class="card mb-4">
+                  <div class="card-body">
+                      <h5 class="card-title">Air Canvas Computer Vision</h5>
+                      <p class="card-text">Air Canvas is a computer vision application that allows users to draw in the air using gestures, without needing a physical canvas or drawing tools. Typically, it uses a camera, such as a webcam, to capture hand movements, which are then tracked and interpreted in real-time by the computer vision system.</p>
+                      <a href="https://github.com/SrilekhaGone/AirCanvas.git" class="btn btn-dark">Project URL</a>
+                  </div>
+              </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="col-md-6">
+              <div class="card mb-4">
+                  <div class="card-body">
+                      <h5 class="card-title">Parkinson's Disease Detection Using Machine Learning.</h5>
+                      <p class="card-text">Parkinson's disease detection using machine learning involves creating a model to analyze patient data, such as voice recordings, to identify the disease early. The model is trained on labeled datasets with algorithms like SVM, KNN and RF to classify if a person has Parkinson's. The aim is to enhance early diagnosis through a non-invasive, automated method.</p>
+                      <a href="https://github.com/SrilekhaGone/Parkinson-Disease-Detection.git" class="btn btn-dark">Project URL</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<section id="interests">
+  <div class="container">
+      <h2 class="text-center mb-4">My Interests</h2>
+      <div class="row">
+          <!-- Technology -->
+          <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                  <img class="image-resizer" src="./assests/badminton.jpeg" class="card-img-top" alt="badminton">
+                  <div class="card-body">
+                      <h5 class="card-title">Badminton</h5>
+                      <p class="card-text">As a avid badminton player, I enjoy the mental and physical challenges the sport provides. Playing regularly has instilled in me a strong sense of discipline, preservance and ability to stay focused under pressure.</p>
+                  </div>
+              </div>
+          </div>
+          <!-- Travel -->
+          <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                  <img class="image-resizer" src="./assests/indian tourism.png" class="card-img-top" alt="Travel">
+                  <div class="card-body">
+                      <h5 class="card-title">Travel</h5>
+                      <p class="card-text">Traveling allows me to experience new cultures and perspectives. I am constantly inspired by the diverse cultures, landscapes, and histories I encounter.</p>
+                  </div>
+              </div>
+          </div>
+          <!-- Cooking -->
+          <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                  <img class="image-resizer" src="./assests/photography.webp" class="card-img-top" alt="photography">
+                  <div class="card-body">
+                      <h5 class="card-title">Photography</h5>
+                      <p class="card-text">Photography, is one of my personal interest, is about more than just capturing images; it's a way of seeing the world.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<section class="gradient-background">
+  <div class="container">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="https://www.linkedin.com/in/srilekhagone/" class="nav-link px-2 text-body-secondary">LinkedIn</a></li>
+        <li class="nav-item"><a href="https://github.com/SrilekhaGone" class="nav-link px-2 text-body-secondary">Github</a></li>
+        <li class="nav-item"><a href="mailto:srilekhagone0304@gmail.com" class="nav-link px-2 text-body-secondary">Contact Me</a></li>
+      </ul>
+  </div>
+</section>
+</body>
+</html>
